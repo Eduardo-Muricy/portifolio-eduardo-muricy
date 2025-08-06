@@ -11,7 +11,7 @@ const MarqueeComponent = () => {
       <Marquee speed={100}    gradient={false} className="text-2xl font-bold  ">
 
 
-        <div   className='flex gap-4  items-center'>
+        <div   className='flex gap-12  items-center'>
          
             <i className="devicon-react-original"style={{ color: "#BFBFC4", fontSize: "50px" }}></i>
           

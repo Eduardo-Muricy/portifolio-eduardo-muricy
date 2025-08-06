@@ -17,18 +17,18 @@ const About = () => {
                 </button>
             </div>
 
-            <div>
+            <div className='pt-12 '>
                 <h1 className='text-[#FFFFFF] text-4xl bold text-center' >{`<programador/> solucionador de problemas`}</h1>
 
             </div>
 
             <div className='flex flex-col items-center justify-center pl-8 p-3'>
                 <div className='flex flex-col justify-center px-3 '>
-                    <BiTagAlt className='text-[#BFBFC4] hidden md:block ' /><p className='text-[#FFFFFF] '>Especialidade em React e Next.js.<span className='text-[#BFBFC4]'> Eu constantimente trabalho com essas tecnologias</span></p>
+                    <BiTagAlt className='text-[#BFBFC4] hidden md:block ' /><p className='text-[#FFFFFF] '>Especialidade em React e Next.js.<span className='text-[#BFBFC4]'> Eu constantimente trabalho com essas tecnologias.</span></p>
                 </div>
                 <div className='flex flex-col p-3'>
                     <BiTagAlt className='text-[#BFBFC4] hidden md:block' />
-                    <p className='text-[#FFFFFF]'>Trabalho em equipe.<span className='text-[#BFBFC4]'> Uma das coisas que eu mais gosto no trabalho, é  trabalhar em equipe. Mas eu tambem trabalho sozinho, no meu canto</span></p>
+                    <p className='text-[#FFFFFF]'>Trabalho em equipe.<span className='text-[#BFBFC4]'> Uma das coisas que eu mais gosto no trabalho, é  trabalhar em equipe. Mas eu tambem trabalho sozinho, no meu canto.</span></p>
                 </div>
             </div>
 

@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className=' flex flex-col  '>
       <div className='pt-8 '>
-        <h2 className='text-[#FFFFFF] text-3xl bold text-center'>Meus Projetos <span>{`<desenvolvidos/>`}</span></h2>
+        <h2 className='text-[#FFFFFF] text-4xl bold text-center'>Meus Projetos <span>{`<desenvolvidos/>`}</span></h2>
 
         <h4 className='text-[#BFBFC4] text-center'>Front-end </h4>
       </div>

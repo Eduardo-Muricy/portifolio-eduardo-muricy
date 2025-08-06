@@ -17,10 +17,10 @@ const Header = () => {
     const [changeTheme, setChangeTheme] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div className=" fixed w-screen bg-[#0b0c1a] z-30">
+        <div className=" fixed w-screen  bg-[#0b0c1a] z-30">
        
                 
-            <header className='flex justify-between   px-4 py-2   items-center ' >
+            <header className='flex justify-between   px-4 py-2 md:px-8   items-center ' >
                   
 
                   <div className=''>
@@ -45,7 +45,7 @@ const Header = () => {
 
 
 
-                        <SheetContent side="top" className="w-screen max-w-none  h-3/6 bg-[#0B0C1A] flex p-0 m-0 border-0"  >
+                        <SheetContent side="top" className="w-screen max-w-none  h-[70%] bg-[#0B0C1A] flex p-0 m-0 border-0"  >
 
 
                             <SheetClose asChild>
